@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "zpMCjOtxeQY=",
+  "success": true,
+  "projectFilePath": "/Users/davestorey/csharpacademy/DrinksApp/DrinksApp.csproj",
+  "expectedPackageFiles": [
+    "/Users/davestorey/.nuget/packages/microsoft.extensions.configuration/9.0.3/microsoft.extensions.configuration.9.0.3.nupkg.sha512",
+    "/Users/davestorey/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.3/microsoft.extensions.configuration.abstractions.9.0.3.nupkg.sha512",
+    "/Users/davestorey/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.3/microsoft.extensions.dependencyinjection.9.0.3.nupkg.sha512",
+    "/Users/davestorey/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.3/microsoft.extensions.dependencyinjection.abstractions.9.0.3.nupkg.sha512",
+    "/Users/davestorey/.nuget/packages/microsoft.extensions.primitives/9.0.3/microsoft.extensions.primitives.9.0.3.nupkg.sha512",
+    "/Users/davestorey/.nuget/packages/spectre.console/0.49.1/spectre.console.0.49.1.nupkg.sha512"
+  ],
+  "logs": []
+}
