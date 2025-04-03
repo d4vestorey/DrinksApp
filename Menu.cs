@@ -1,19 +1,9 @@
 using Spectre.Console;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
 
 namespace DrinksApp
 {
     public class Menu
     {
-        private readonly ConnectionService _connectionService;
-
-        // Constructor injection (through DI)
-        public Menu(ConnectionService connectionService)
-        {
-            _connectionService = connectionService;
-        }
 
         // Async method to display the menu
         public async Task DisplayMenuAsync()
