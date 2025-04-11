@@ -1,9 +1,12 @@
+using System.Reflection;
+using System.Runtime;
 using Spectre.Console;
 
 namespace DrinksApp
 {
     public class Menu
     {
+        RenderTable renderTable = new RenderTable();
 
         // Async method to display the menu
         public async Task DisplayMenuAsync()
@@ -52,21 +55,7 @@ namespace DrinksApp
                 return;
             }
 
-            // Create a table to display drink details
-            var table = new Table();
-
-            // Add columns to the table
-            table.AddColumn(new TableColumn("[yellow][/]").Centered());
-            table.AddColumn(new TableColumn($"[yellow]{drinkDetails[0]}[/]").Centered());
-
-            // Add rows with drink details
-            table.AddRow("Instructions", drinkDetails[1]);
-            table.AddRow("Category", drinkDetails[2]);
-            table.AddRow("Recommended glass", drinkDetails[3]);
-
-            // Render the table
-            AnsiConsole.Write(table);
-
+            renderTable.CreateTable(drinkDetails);
 
         }
     }
